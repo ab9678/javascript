@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+
+        <label for="name">Name</label>
+        <input type="text" id="name">
+
+        <label for="email">Email</label>
+        <input type="email" name="" id="email" required>
+
+        <label for="course">Course</label>
+        <select name="course" id="course">
+            <option value="1">Btech</option>
+            <option value="2">Bsc</option>
+            <option value="3">Humanities</option>
+            <option value="4">Commerce</option>
+        </select>
+        <br>
+        <input type="submit" value="Register" id="submit">
+    </form>
+
+    <style>
+        body{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: aliceblue;
+        }
+        form {
+            border: solid black 1px;
+            padding: 20px;
+
+            border-radius: 10px;
+            align-items: center;
+            width: fit-content;
+            justify-content: center;
+            display: grid;
+
+            background-color: rgb(234, 242, 239);
+        }
+
+        label,
+        input,
+        select {
+            padding: 5px;
+        }
+
+        #submit:hover{
+            border: solid black 1px;
+            border-radius: 20px;
+            background-color: aliceblue;
+            transform: scale(1.1);
+            transition-duration: 50ms;
+        }
+    </style>
+</body>
+
+</html>
