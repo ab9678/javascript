@@ -1,0 +1,21 @@
+div {
+    background-image: url('image1.png');
+    /* background-size; */
+    background-size: contain;      /* makes image cover entire div */
+    background-repeat: no-repeat; /* avoids tiling */
+    background-position: center;  /* centers the image */
+    height: 500px;
+    width: 500px;
+    clip-path: circle();
+    display: grid;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: aliceblue;
+
+}
+
+div:hover{
+    background-image: url('image2.png');
+    transition: cubic-bezier(0.86, 0, 0.07, 1);
+    transition-duration: 2s;
+}

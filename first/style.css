@@ -1,0 +1,25 @@
+header{
+    color: rgb(232, 217, 217);
+    background-color: rgb(69, 186, 188);
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+
+    padding: 10%;
+    /* padding-left: 20%; */
+    background-image: linear-gradient(to right, rgb(15, 147, 159), rgb(138, 43, 226));
+    align-items: center;
+    text-align: center;
+}
+
+button{
+    padding: 1%;
+    background-color: rgb(178, 131, 222);
+    
+    color: whitesmoke;
+    
+}
+
+body{
+    background-color: rgb(40, 35, 35);
+    color: aliceblue;
+}

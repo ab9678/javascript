@@ -1,0 +1,53 @@
+
+body{
+    background-color: blanchedalmond;
+}
+
+
+header{
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(152, 91, 12);
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    
+}
+
+form{
+    background-color: burlywood;
+    padding: 20px;
+
+    border-radius: 10px;
+    align-items: center;
+    width: fit-content;
+    
+    justify-content: center;
+    display: grid
+}
+
+input {
+    background-color: bisque;
+    border-radius: 10px;
+    height: 30px;
+    
+}
+label{
+    padding: 5px;
+}
+
+input#submit{
+    background-color: whitesmoke;
+}
+/* label[for="2"] {
+  color: blue;
+  font-weight: bold;
+} */
+
+

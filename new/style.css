@@ -1,0 +1,13 @@
+#box{
+    background-color: aquamarine;
+    padding: 2%;
+}
+
+.heading{
+    color: rgb(23, 106, 132);
+}
+
+button{
+    color: green;
+    background-color: aliceblue;
+}
