@@ -4,20 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="out"> </h1>
+    <p id="dataspace"></p>
 
-    <button onclick="setdata()">Get data</button>
+    <button onclick="ajax()">click here</button>
 
     <script>
-        function setdata(){
+        function ajax(){
             fetch("data.txt")
-            .then(x => x.text())
-            .then(y => document.getElementById("out").innerText = y)
+            .then(res => res.text())
+            .then(data => document.getElementById("dataspace").innerText = data)
         }
     </script>
-
 </body>
 </html>

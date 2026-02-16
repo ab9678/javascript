@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="main">
+    <button onclick="changecolor()">click here</button>
+
+
+    <script>
+        index=0
+        function changecolor(){
+            
+            colorset = ['red','green','blue']
+
+            document.getElementById("main").style.backgroundColor=colorset[index]
+            index++
+
+            if (index>=colorset.length){
+                index=0
+            }
+            
+        }
+
+    </script>
+</body>
+</html>

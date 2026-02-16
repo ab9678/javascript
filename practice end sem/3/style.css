@@ -1,0 +1,13 @@
+a{
+    background-color: aliceblue;
+    padding: 20px;
+    
+}
+a:hover{
+    background-color: green;
+    transform: scale(10px);
+}
+header{
+    margin: 10px;
+    padding: 20px;
+}
